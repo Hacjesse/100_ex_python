@@ -1,0 +1,5 @@
+#nome = str(input('Qual o seu nome completo? ')).strip().title()
+#n = ('Silva' in nome)
+#print('tem SILVA no seu nome? {}'.format(n))
+nome = str(input('Qual é seu nome? ')).strip()
+print('No seu nome tem Silva? {}'.format('SILVA' in nome.upper()))
